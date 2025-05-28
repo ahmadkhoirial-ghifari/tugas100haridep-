@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+    int bilangan;
+
+    std::cout << "Masukkan bilangan: ";
+    std::cin >> bilangan;
+
+    if (bilangan % 2 == 0) {
+        std::cout << bilangan << " adalah bilangan genap." << std::endl;
+    } else {
+        std::cout << bilangan << " adalah bilangan ganjil." << std::endl;
+    }
+
+    return 0;
+}
