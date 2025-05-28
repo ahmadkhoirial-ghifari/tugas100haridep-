@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	//deklarasi variable
+	int angka1 , angka2 , hasiljumlah, hasilkali;
+	
+	cout<<"masukan angka pertama : ";
+	cin>>angka1
+	
+	cout<<"masukan angka kedua : ";
+	cin>>angka2;
+	
+	hasiljumlah = angka1 + angka2;
+	hasilkali = angka1 * angka2;
+	
+	cout<<"hasil penjumlahan antara "<<angka1<<" + "<<angka2<<" = "<<hasiljumlah;
+	
+	cout<<"hasil perkalian antara "<<angka1<<" * "<<angka2<<" = "<<hasilkali;
+	
+	
+	return 0;
+	
+	
+}
